@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(49, 33, 17);
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    color: burlywood;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+ul{
+    padding: 0px;
+}
+li{
+    color: white;
+    list-style: none;
+}
+
+img{
+    margin-left: 20px;
+    width: 50px;
+    height: fit-content
+}
+.headline{
+    width: 50vw;
+    padding: 8px;
+    text-align: center;
+    align-self: center;
+    line-height: 2em;
+    color: white;
+    font-size: 22px;
+    border: 2px solid rgb(222, 184, 135,0.4);
+    border-radius: 5px;
+}
+
+.hours{
+    align-self: center;
+    color: burlywood;
+    font-size: 18px;
+    line-height: 2em;
+    border-radius: 5px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
