@@ -1,25 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background-color: rgb(49, 33, 17);
+    background-image:url(./imgs/bgimg.jpeg);
+    object-fit: contain;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    width: 100%;
+    height: 11vh;
+    background-color: rgb(181, 90, 15);
+    position: fixed;
+    border: 3px solid brown;
+}
+button{
+    height: auto;
+    background-color: burlywood;
+    color: black;
+    font-size: 24px;
+    padding: 5px;
+    
 }
 h1{
-    font-size: 48px;
+    font-size: 80px;
     text-align: center;
-    color: burlywood;
-    margin-left: 10px;
+    color: brown;
     margin-top: 8px;
+    margin-left: 60px;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 ul{
     padding: 0px;
 }
 li{
-    color: white;
     list-style: none;
+    font-size: 24px;
+    color: beige;
+    border: 1px rgb(244, 160, 3,0.5) solid;
+    border-radius: 2px;
+    padding: 5px;
 }
-
+.order{
+    list-style-type: normal;
+    font-size: 28px;
+    color: burlywood;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.logo{
     margin-left: 20px;
-    width: 50px;
-    height: fit-content
+    width: 70px;
+    height: 110px;
+    margin-top: 10px;
 }
 .headline{
     width: 50vw;
@@ -27,23 +72,77 @@ img{
     text-align: center;
     align-self: center;
     line-height: 2em;
-    color: white;
-    font-size: 22px;
+    color: orange;
+    font-size: 28px;
     border: 2px solid rgb(222, 184, 135,0.4);
     border-radius: 5px;
 }
 
-.hours{
+h2{
     align-self: center;
-    color: burlywood;
-    font-size: 18px;
-    line-height: 2em;
-    border-radius: 5px;
+    color: orange;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: burlywood;
+}
+.order-header{
+    align-self: center;
+    color: orange;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-style: normal;
+    text-decoration-color: burlywood;
 }
 
 #content{
+    background-color: rgb(0, 0, 0,0.88);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
+    border: 5px  solid;
+    border-radius: 5px;
+    padding: 100px;
+}
+
+.hours{
+    align-self: center;
+    font-size: 18px;
+    line-height: 2.4em;
+}
+
+.menu-container{
+    width: 500px;
+    height:400px;
+    align-self: center;
+    border: 3px brown solid;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 5px;
+}
+
+.info{
+    font-size: 28px;
+    align-self: center;
+    color: wheat;
+    border: 1px solid orange;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+span{
+    font-size: 28px;
+    display: block;
+    text-align: center;
+    color: rgb(202, 43, 43);
+    margin-top: 10px;
+}
+
+.hours-header{
+    color: brown;
+    align-self: center;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-style: 'normal';
 }
